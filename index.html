@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Number Guesser</title>
+  </head>
+  <body>
+  <header>
+    <div class="title">
+      <h1>NUMBER<span class="title-span">GUESSER</span></h1>
+      <h4>2 Player Edition</span></h4>
+    </div>
+  </header>
+  <main>
+  <section class="section-left">
+    <div class="container-range">
+      <form class="min-range-form" action="index.html" method="post">
+        <h3 class="small-title-one">Set Range</h3>
+        <p>Min Range</p>
+        <input class="min-range-input" type="number" name="" value="">
+        <p class="hidden" id="error">Enter a valid number</p>
+      </form>
+      <form class = "max-range-form">
+        <p>Max Range</p>
+        <input class="max-range-input" type="number" name="" value="">
+        <p class="hidden" id="error-1">Enter a valid number</p>
+      </form>
+      <form class="button-range-form">
+        <button class="update-button" type="button" name="button" >Generate Number</button>
+      </form>
+    </div>
+<div class="container-challenger">
+  <p class="player-range">The Current Range is <span class="min-range"> _ </span> to <span class="max-range"> _</span></p>
+  <article class="challenger-one-article">
+    <form class="name-form" action="index.html" method="post">
+      <h6 class=small-title-one>Challenger 1</h6>
+      <p for="challenger-one-name">Name</p>
+      <input class="challenger-one-name"type="text" name="" value="">
+    </form>
+    <form class="guess-form" action="index.html" method="post">
+      <p for="challenger-one-guess">Guess</p>
+      <input class="challenger-one-guess challenger-guess" type="number" name="" value="">
+      <p class="hidden" id="error-4">Enter a valid guess!</p>
+    </form>
+  </article>
+  <article class="challenger-two-article">
+    <form class="name-form" action="index.html" method="post">
+      <h6 class=small-title-one>Challenger 2</h6>
+      <p for="challenger-two-name">Name</p>
+      <input class="challenger-two-name"type="text" name="" value="">
+    </form>
+    <form class="guess-form" action="index.html" method="post">
+      <p for="challenger-two-guess">Guess</p>
+      <input class="challenger-two-guess challenger-guess" type="number" name="" value="">
+      <p class="hidden" id="error-5">Enter a valid guess!</p>
+    </form>
+  </article>
+  <form class="buttons">
+    <button class="submit-button" type="button" name="button">SUBMIT GUESS</button>
+    <button class="clear-button" type="button" name="button">Reset Game</button>
+  </form>
+</div>
+  <div class="container-score">
+    <article class="challenger-one-score">
+      <div class="container-score-title">
+      </div>
+      <h5 class="small-title-challenger-one small-title-challenger-one-instance-one">Challenger 1 Name</h5>
+      <p>current guess</p>
+      <h1 class="current-guess current-guess-one">n/a</h1>
+      <p class = "high-or-low-1"></p>
+    </article>
+    <article class="challenger-two-score">
+      <h5 class="small-title-challenger-two small-title-challenger-two-instance-two">Challenger 2 Name</h5>
+      <p>current guess</p>
+      <h1 class="current-guess current-guess-two">n/a</h1>
+      <p class = "high-or-low-2"></p>
+    </article>
+  </div>
+</section>
+<section class="section-right">
+  </article>
+</section>
+</main>
+  </body>
+  <script type="text/javascript" src = "main.js"></script>
+</html>
