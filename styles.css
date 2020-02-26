@@ -10,7 +10,7 @@ body {
 
 header {
 	width:100%;
-	background-color: #f0ac89;
+	background-color: black;
 	text-align: center;
 	display:flex;
 	justify-content: center;
@@ -67,7 +67,7 @@ main {
 	color: #FFF;
 }
 
-/* ---------Main---------- */
+/*Left side of page */
 
 .section-left {
 	flex:1;
@@ -242,7 +242,7 @@ button:disabled {
 
 
 
-/* --------right-section------- */
+/* Right side of page */
 
 .card-one, .card-two, .card-three  {
 	border:1px solid black;
