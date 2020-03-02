@@ -2,3 +2,7 @@ This is a number guessing game where two players compete with each other to try 
 
 
 Link: https://jytcr127.github.io/Guess-Number-Project/
+
+
+<img src="images/screenshot1.png">
+<img src="images/screenshot2.png">
